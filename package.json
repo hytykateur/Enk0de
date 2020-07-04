@@ -1,0 +1,21 @@
+{
+  "name": "enkode",
+  "version": "0.0.1",
+  "description": "EnkOde is a bot discord for encode/decode text",
+  "main": "main.js",
+  "scripts": {
+    "start": "node src/Bot.js"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "whispered",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "crypto-js": "^4.0.0",
+    "discord.js": "^12.2.0",
+    "request": "^2.88.2",
+    "sharp": "^0.25.4"
+  }
+}
