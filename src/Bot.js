@@ -90,7 +90,7 @@ class Client {
 			console.log(`${user.username} reacted with "${reaction.emoji.identifier}".`);
 		});
 		
-		Bot.login('NzI4NTM0MjMxMzMyMDI4NDI4.Xv9w9g.zMhDPR83K6QB1RV0l0e4O4zcuNM');
+		Bot.login('tacru');
 	}
 }
  
