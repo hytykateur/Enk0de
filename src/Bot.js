@@ -2,14 +2,14 @@ const Discord = require('discord.js');
 const features = [];
 const Bot = new Discord.Client();
 class Client {
-	static prefix = "kode!";
+	static prefix = "k:";
 	static dcolor = "#1989fa";
 	static bot = Bot;
 	static helpEmbed = new Discord.MessageEmbed();
 	invoke () {
 		console.log("Bot invoked")
 		/**
-		 * Invoke constructor here of all the features
+		 * Invoke constructor here of all the featuresd
 		 */
 
 		Client.helpEmbed.setTitle("EnkodeBot v0.4 by whispered");
@@ -90,7 +90,7 @@ class Client {
 			console.log(`${user.username} reacted with "${reaction.emoji.identifier}".`);
 		});
 		
-		Bot.login('NzI4NTM0MjMxMzMyMDI4NDI4.Xv9w9g.zMhDPR83K6QB1RV0l0e4O4zcuNM');
+		Bot.login(process.env.ENKODE_TOKEN);
 	}
 }
  

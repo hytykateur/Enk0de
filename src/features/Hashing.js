@@ -6,7 +6,7 @@ const CryptoJS = require('crypto-js');
 var  Client = require('../Bot');
 class Hashing extends Feature {
     constructor () {
-        Client.helpEmbed.addField('> Hashing Commands',
+        Client.helpEmbed.addField('Hashing Commands',
         `- **${Client.prefix}md5** [data] | *Hash text to md5*`);
         super();
     }

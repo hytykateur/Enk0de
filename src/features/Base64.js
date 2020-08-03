@@ -5,7 +5,7 @@ const Feature = require('./Feature');
 const prefix = require('../Bot').prefix;
 class Base64 extends Feature {
     constructor () {
-        Client.helpEmbed.addField('> Base64 Commands',`- **${Client.prefix}b64encode** [data] | *Encode text to base64*
+        Client.helpEmbed.addField('Base64 Commands',`- **${Client.prefix}b64encode** [data] | *Encode text to base64*
         **- ${Client.prefix}b64decode** [data] | *Decode text from base64*`);
         super();
     }
